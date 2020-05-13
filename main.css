@@ -18,6 +18,7 @@
  background-color: white;
  width: 100%;
  top: 0;
+ z-index: 1;
 }
 .nav-left,
 .nav-mid,
@@ -74,7 +75,7 @@
  background-color: #277391;
 }
 .article-con {
- /*background-color: palevioletred;*/
+/*background-color: palevioletred;*/
  width: 1000px;
  margin: auto;
  display: flex;
@@ -110,7 +111,7 @@
  float: left;
 }
 .story {
- /* background-color: wheat; */
+  /*background-color: wheat;*/
  width: 600px;
  margin: auto;
  display: flex;
@@ -159,6 +160,32 @@
 .header p {
  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
  color: gray;
+}
+.image_details,
+.image_details_two {
+    display: flex;
+    position: relative;
+    bottom: 450px;
+
+}
+.image_details_two{
+    bottom: 270px;
+}
+.image_details span,
+.image_details_two span {
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    font-style: normal;
+}
+.theory {
+    height: 800px;
+    margin-top: 0;
+}
+.theory_footer {
+    position: relative;
+    bottom: 220px;
 }
 .hr-theory {
  width: 70px;
