@@ -257,8 +257,54 @@
  font-size: 10px;
 }
 .aside-con {
- background-color: peru;
- height: 300px;
+display: flex;
+position: relative;
+margin-top: 15px;
+}
+
+.bigflexbox {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    border-top: black solid 1px;
+    padding-top: 15px;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+}
+
+.imgflexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigflexbox img {
+    height: 175px;
+    width: 265px;
+}
+.imgflexbox p {
+    max-width: 265px;
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+ color: #333;
+    font-size: 1.125rem;
+    line-height: 22px;
+}
+.imgflexbox span {
+    text-align: right;
+    color: rgb(153, 153, 153);
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-size: .7rem;
+    padding: 5px;
+}
+.timespan {
+    justify-self: start;
+    width: fit-content;
+}
+.smallflexbox {
+    background-color: lightseagreen;
+    width: 350px;
 }
 .footer-con {
  background-color: seagreen;
