@@ -1,0 +1,65 @@
+* {
+ box-sizing: border-box;
+}
+/*Navigation Bar*/
+.grid-nav {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: 1fr;
+ vertical-align: middle;
+ justify-items: center;
+}
+.nav-left,
+.nav-mid,
+.nav-right {
+ border: solid 1px blue;
+}
+.nav-left a {
+ margin-right: 10px;
+}
+.nav-left a {
+ text-decoration: none;
+ text-align: center;
+ font-weight: 700;
+ font-size: 12px;
+ font-family: Arial, Helvetica, sans-serif;
+ letter-spacing: 0.3px;
+ color: black;
+ margin-right: 25px;
+}
+.nav-left a:hover {
+ text-decoration: underline;
+}
+
+.menu-bar {
+ width: 16px;
+ height: 16px;
+}
+.search-icon {
+ width: 17px;
+ height: 17px;
+}
+.nyt-logo {
+ width: 189px;
+ height: 25px;
+}
+.nav-right a {
+ text-decoration: none;
+ text-align: center;
+ font-weight: bold;
+ font-size: 10px;
+ color: white;
+}
+.subscribe {
+ padding: 8px 12px 8px 12px;
+ margin-right: 3px;
+ border: solid 1px #1b546b;
+ border-radius: 4px;
+ background-color: #277391;
+}
+.login {
+ padding: 8px 12px 8px 12px;
+ border: solid 1px #1b546b;
+ border-radius: 5px;
+ background-color: #277391;
+}
