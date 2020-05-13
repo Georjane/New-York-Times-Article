@@ -1,18 +1,28 @@
 * {
+  margin: 0;
+  padding: 0;
+  border: 0;
  box-sizing: border-box;
+}
+.main-container {
+    display: grid;
 }
 /*Navigation Bar*/
 .grid-nav {
  display: grid;
+ position: fixed;
  grid-template-columns: repeat(3, 1fr);
  grid-template-rows: 1fr;
  vertical-align: middle;
  justify-items: center;
+ background-color: white;
+ width: 100%;
+ top: 0;
 }
 .nav-left,
 .nav-mid,
 .nav-right {
- border: solid 1px blue;
+ padding-top: 7px;
 }
 .nav-left a {
  margin-right: 10px;
@@ -62,4 +72,79 @@
  border: solid 1px #1b546b;
  border-radius: 5px;
  background-color: #277391;
+}
+.article-con {
+/*background-color: palevioletred;*/
+width: 1000px;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+.ads {
+    height: 150px;
+    background-color: white;
+}
+.article-con h1 {
+    color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    max-width: 600px;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+    margin-left: 230px;
+}
+.article-con img {
+    width: inherit;
+}
+.article-con span {
+    margin-right: 7px;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font: inherit;
+    vertical-align: baseline;
+    max-width: 650px;
+    float: left;
+}
+.story {
+   /* background-color: wheat; */
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.story h3 {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 700;
+    color: #333;
+    text-size-adjust: 100%;
+    vertical-align: baseline;
+    padding-top: 60px;
+}
+.storyhead {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.icons i {
+    margin-right: 15px;
+}
+.story p {
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    color: #333;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+.aside-con {
+background-color: peru;
+height: 300px;
+}
+.footer-con {
+background-color: seagreen;
+height: 100px;
 }
