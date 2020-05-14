@@ -56,10 +56,15 @@
 .footer_foot a,
 .footer_body ul li a {
   text-decoration: none;
-  color: black;
   display: flex;
   align-items: center;
   justify-content: start;
+  color: rgb(51, 51, 51);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  height: 25px;
+  line-height: 25px;
 }
 
 .nav-left a:hover {
@@ -455,8 +460,7 @@ iframe {
   list-style-type: none;
 }
 
-.footer_body ul li,
-.footer_foot a {
+.footer_body ul li {
   color: rgb(51, 51, 51);
   display: flex;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
