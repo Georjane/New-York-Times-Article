@@ -1,5 +1,6 @@
 # New-York-Times-Article
 
+The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories. That creates all kinds of interesting position questions.
 This HTML form page is designed with basic HTML, CSS, Grid, FlexBox and Positioning features. Fontawsome icons are used.
 
 # Original Design
@@ -8,11 +9,7 @@ For the original design: [www.nytimes.com](https://www.nytimes.com/2014/03/18/sc
 
 # Project Design
 
-For the project design: ![Project Design](images/shot-1.png)
-![Project Design](images/shot-2.png)
-![Project Design](images/shot-3.png)
-![Project Design](images/shot-4.png)
-
+For the project design: ![Project Design](images/screenshot.png)
 # Github link:
 
 For the: [Github-link](https://github.com/Georjane/New-York-Times-Article)
