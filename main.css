@@ -45,16 +45,16 @@
 }
 
 .tag a {
-    color: #666;
-  }
- 
+  color: #666;
+}
+
 .footer_foot a {
-    font-size: 11px;
-    color: rgb(116, 114, 114);
-  }
- 
-.footer_body ul li a,
-.footer_foot a {
+  font-size: 11px;
+  color: rgb(116, 114, 114);
+}
+
+.footer_foot a,
+.footer_body ul li a {
   text-decoration: none;
   color: black;
   display: flex;
@@ -465,7 +465,6 @@ iframe {
   height: 25px;
   line-height: 25px;
 }
-
 
 .footer_body ul li a img {
   width: 22px;
