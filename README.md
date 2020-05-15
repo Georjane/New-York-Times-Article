@@ -2,26 +2,26 @@
 
 This is a clone of a New York Times article page using HTML and CSS.
 
-## For the Project Design: 
+## For the Project Design:
+
 ![Project Design](images/screenshot.png)
 
 The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories. That creates all kinds of interesting position questions.
 This aticle page is designed using elements aligned with a combination of all three CSS positioning techniques (float, flex and grid).
 
-It has as main sections 
+It has as main sections
 
 - Navigation bar
-Designed using grid systems with fixed position and vertical alignment.
+  Designed using grid systems with fixed position and vertical alignment.
 
 - Main Article Section
-Containing articles, list elements, an embeddedd video & images all using grid system layout.
+  Containing articles, list elements, an embeddedd video & images all using grid system layout.
 
 - Aside Section
-Designed with a grid system containing anchor elements and horizontal lines
+  Designed with a grid system containing anchor elements and horizontal lines
 
-- Footer 
-Grid system layout and flex boxes are used with necessary alignments. It also includes a bottom bar whose position is fixed at the bottom too.
-
+- Footer
+  Grid system layout and flex boxes are used with necessary alignments. It also includes a bottom bar whose position is fixed at the bottom too.
 
 ## Built With
 
@@ -62,8 +62,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
-
-
-
-
-

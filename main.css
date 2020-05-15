@@ -18,9 +18,10 @@
   vertical-align: middle;
   justify-items: center;
   background-color: white;
-  width: 80%;
+  width: 100%;
   top: 0;
-  left: 200px;
+  left: 0;
+  right: 0;
   z-index: 1;
 }
 
@@ -80,6 +81,11 @@
   font-weight: 500;
   height: 25px;
   line-height: 25px;
+}
+
+.bottom-bar a {
+  text-decoration: none;
+  color: black;
 }
 
 .nav-left a:hover {
@@ -302,18 +308,20 @@ figcaption {
 
 /* Embed video */
 iframe {
-  height: 318px;
-  width: inherit;
+  height: 400px;
+  width: 550px;
+  padding-top: 4rem;
 }
 
 .iframe_tag {
-  margin-right: 7px;
+  margin-top: 10px;
+  margin-right: 10px;
   color: rgb(122, 118, 118);
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
   vertical-align: baseline;
-  max-width: 650px;
+  max-width: 70%;
   float: left;
 }
 
