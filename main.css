@@ -1,571 +1,569 @@
 * {
- margin: 0;
- padding: 0;
- border: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 .main-container {
- display: grid;
+  display: grid;
 }
-
 /* Navigation Bar */
 .grid-nav {
- display: grid;
- position: fixed;
- grid-template-columns: repeat(3, 1fr);
- grid-template-rows: 1fr;
- vertical-align: middle;
- justify-items: center;
- background-color: white;
- width: 80%;
- top: 0;
- left: 200px;
- z-index: 1;
+  display: grid;
+  position: fixed;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  vertical-align: middle;
+  justify-items: center;
+  background-color: white;
+  width: 80%;
+  top: 0;
+  left: 200px;
+  z-index: 1;
 }
 
 .nav-left,
 .nav-mid,
 .nav-right {
- display: flex;
- padding-top: 7px;
+  display: flex;
+  padding-top: 7px;
 }
 
 .nav-left p {
- position: relative;
+  position: relative;
 }
 
 .nav-left a {
- text-decoration: none;
- text-align: center;
- font-weight: 700;
- font-size: 12px;
- font-family: Arial, Helvetica, sans-serif;
- letter-spacing: 0.3px;
- color: black;
- margin-right: 25px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.3px;
+  color: black;
+  margin-right: 25px;
 }
 
 .tag a {
- color: #666;
+  color: #666;
 }
 
 .footer_foot a {
- font-size: 11px;
- color: rgb(116, 114, 114);
+  font-size: 11px;
+  color: rgb(116, 114, 114);
 }
 
 .footer_foot a,
 .footer_body ul li a {
- text-decoration: none;
- display: flex;
- align-items: center;
- justify-content: start;
- color: rgb(51, 51, 51);
- font-family: nyt-franklin, helvetica, arial, sans-serif;
- font-size: 13px;
- font-weight: 500;
- height: 25px;
- line-height: 25px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: rgb(51, 51, 51);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  height: 25px;
+  line-height: 25px;
 }
 
 .nav-left a:hover {
- text-decoration: underline;
+  text-decoration: underline;
 }
 
 .menu-bar {
- width: 16px;
- height: 16px;
+  width: 16px;
+  height: 16px;
 }
 
 .search-icon {
- width: 17px;
- height: 17px;
+  width: 17px;
+  height: 17px;
 }
 
 .nyt-logo {
- width: 189px;
- height: 25px;
+  width: 189px;
+  height: 25px;
 }
 
 .nav-right button {
- text-decoration: none;
- text-align: center;
- font-weight: bold;
- font-size: 10px;
- color: white;
- cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+  color: white;
+  cursor: pointer;
 }
 
 .subscribe {
- padding: 8px 12px 8px 12px;
- margin-right: 3px;
- border: solid 1px #1b546b;
- border-radius: 4px;
- background-color: #277391;
+  padding: 8px 12px 8px 12px;
+  margin-right: 3px;
+  border: solid 1px #1b546b;
+  border-radius: 4px;
+  background-color: #277391;
 }
 
 .login {
- padding: 8px 12px 8px 12px;
- border: solid 1px #1b546b;
- border-radius: 5px;
- background-color: #277391;
+  padding: 8px 12px 8px 12px;
+  border: solid 1px #1b546b;
+  border-radius: 5px;
+  background-color: #277391;
 }
 
 .article-con {
- width: 1000px;
- margin: auto;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .ads {
- height: 150px;
- background-color: white;
+  height: 150px;
+  background-color: white;
 }
 
 .article-con h1 {
- color: #121212;
- font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
- font-weight: 700;
- font-style: italic;
- max-width: 600px;
- font-size: 2.5rem;
- line-height: 3rem;
- text-align: center;
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-style: italic;
+  max-width: 600px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-align: center;
 }
 
 figure img {
- width: 1000px;
- align-items: center;
+  width: 1000px;
+  align-items: center;
 }
 
 figcaption {
- width: 85%;
- font-size: 0.9rem;
- font-weight: lighter;
- color: #666;
+  width: 85%;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #666;
 }
 
 .article-con p {
- margin-right: 7px;
- color: #666;
- font-family: georgia, "times new roman", times, serif;
- font-size: 0.6rem;
- line-height: 1.25rem;
- vertical-align: middle;
- max-width: 90%;
+  margin-right: 7px;
+  color: #666;
+  font-family: georgia, "times new roman", times, serif;
+  font-size: 0.6rem;
+  line-height: 1.25rem;
+  vertical-align: middle;
+  max-width: 90%;
 }
 
 .story {
- width: 600px;
- display: flex;
- align-items: center;
- justify-content: center;
- flex-direction: column;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .story h3 {
- font-family: helvetica, arial, sans-serif;
- font-weight: 700;
- color: #333;
- text-size-adjust: 100%;
- vertical-align: middle;
- padding-top: 60px;
-
- width: inherit;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: #333;
+  text-size-adjust: 100%;
+  vertical-align: middle;
+  padding-top: 60px;
+  width: inherit;
 }
 
 .story p {
- font-family: nyt-imperial, georgia, "times new roman", times, serif;
- color: #333;
- font-size: 1.25rem;
- line-height: 1.875rem;
- text-align: justify;
- width: inherit;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  color: #333;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  text-align: justify;
+  width: inherit;
 }
 
 .storyhead {
- display: flex;
- align-items: center;
- justify-content: space-between;
- padding-top: 30px;
- padding-bottom: 10px;
- width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: inherit;
 }
 
 .storyhead time {
- float: left;
+  float: left;
 }
 
 .icons {
- margin-right: 35px;
+  margin-right: 35px;
 }
 
 .icons button {
- margin-right: 7px;
- padding: 10px;
- background-color: #eee;
- border-radius: 50%;
- cursor: pointer;
+  margin-right: 7px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .icons button:hover {
- border: solid 1px #eee;
- border-radius: 50%;
- padding: 10px;
- background-color: white;
+  border: solid 1px #eee;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: white;
 }
 
 #msgbox {
- font-size: 20px;
+  font-size: 20px;
 }
 
 #msg {
- font-size: 10px;
- position: relative;
- right: 39px;
- bottom: 5px;
- font-weight: 900;
+  font-size: 10px;
+  position: relative;
+  right: 39px;
+  bottom: 5px;
+  font-weight: 900;
 }
 
 /* Theory Sections */
 .header img {
- width: 100%;
+  width: 100%;
 }
 
 .header h4 {
- padding-top: 20px;
+  padding-top: 20px;
 }
 
 .header p {
- font-family: nyt-cheltenham, georgia, times new roman, times, serif;
- color: gray;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  color: gray;
 }
 
 .image_details,
 .image_details_two {
- display: flex;
- position: relative;
- bottom: 450px;
+  display: flex;
+  position: relative;
+  bottom: 450px;
 }
 
 .image_details_two {
- bottom: 270px;
+  bottom: 270px;
 }
 
 .image_details p,
 .image_details_two p {
- font-family: nyt-franklin, arial, helvetica, sans-serif;
- font-size: 13px;
- line-height: 17px;
- color: #000;
- font-style: normal;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000;
+  font-style: normal;
 }
 
 .theory {
- height: 800px;
- margin-top: 0;
+  height: 800px;
+  margin-top: 0;
 }
 
 .theory_footer {
- position: relative;
- bottom: 220px;
+  position: relative;
+  bottom: 220px;
 }
 
 .hr-theory {
- width: 70px;
- border: solid 1px black;
+  width: 70px;
+  border: solid 1px black;
 }
 
 .p-theory {
- font-size: 0.875rem;
- font-weight: 500;
- font-style: normal;
- font-family: nyt-franklin, arial, helvetica, sans-serif;
- padding-top: 10px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  padding-top: 10px;
 }
 
 /* Embed video */
 iframe {
- height: 318px;
- width: inherit;
+  height: 318px;
+  width: inherit;
 }
 
 .iframe_tag {
- margin-right: 7px;
- color: rgb(122, 118, 118);
- font-family: nyt-imperial, georgia, "times new roman", times, serif;
- font-size: 1rem;
- line-height: 1.5rem;
- vertical-align: baseline;
- max-width: 650px;
- float: left;
+  margin-right: 7px;
+  color: rgb(122, 118, 118);
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  vertical-align: baseline;
+  max-width: 650px;
+  float: left;
 }
 
 .iframe_tag small {
- color: #c6c8cc;
+  color: #c6c8cc;
 }
 
 .telescope {
- margin-bottom: 25px;
- width: inherit;
+  margin-bottom: 25px;
+  width: inherit;
 }
 
 .telescope-img {
- margin-top: 35px;
- width: inherit;
+  margin-top: 35px;
+  width: inherit;
 }
 
 .tag p {
- margin-top: 10px;
- margin-bottom: 10px;
- margin-right: 7px;
- color: #666;
- font-family: nyt-imperial, georgia, "times new roman", times, serif;
- font-size: 10px;
- line-height: 15px;
- max-width: 650px;
- float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 10px;
+  line-height: 15px;
+  max-width: 650px;
+  float: left;
 }
 
 .tag a:link {
- text-decoration: underline;
- margin-left: 2px;
- margin-right: 3px;
+  text-decoration: underline;
+  margin-left: 2px;
+  margin-right: 3px;
 }
 
 .tag a:hover {
- text-decoration: none;
- margin-left: 2px;
- margin-right: 3px;
- color: #666;
+  text-decoration: none;
+  margin-left: 2px;
+  margin-right: 3px;
+  color: #666;
 }
 
 .comments {
- padding: 8px 80px 8px 80px;
- margin-right: 3px;
- border: solid 1px #1b546b;
- border-radius: 4px;
- background-color: #277391;
- color: white;
- text-decoration: none;
- text-align: center;
- font-weight: bold;
- font-size: 10px;
- cursor: pointer;
+  padding: 8px 80px 8px 80px;
+  margin-right: 3px;
+  border: solid 1px #1b546b;
+  border-radius: 4px;
+  background-color: #277391;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+  cursor: pointer;
 }
 
 .aside-con {
- display: flex;
- position: relative;
- margin-top: 15px;
- align-items: inherit;
- justify-content: center;
+  display: flex;
+  position: relative;
+  margin-top: 15px;
+  align-items: inherit;
+  justify-content: center;
 }
 
 .aside-con a {
- text-decoration: none;
+  text-decoration: none;
 }
 .header-big a h4 {
- list-style: none;
- color: black;
- font-size: 1rem;
- font-family: georgia, "times new roman", times, serif;
- line-height: 22px;
- font-weight: 500;
+  list-style: none;
+  color: black;
+  font-size: 1rem;
+  font-family: georgia, "times new roman", times, serif;
+  line-height: 22px;
+  font-weight: 500;
 }
 
 .biggrid {
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
- grid-auto-rows: 20px 1fr 1fr 10px 20px 1fr;
- grid-gap: 10px;
- border-top: black solid 1px;
- margin-left: 30px;
- margin-right: 20px;
- width: 80%;
- width: fit-content;
- padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 20px 1fr 1fr 10px 20px 1fr;
+  grid-gap: 10px;
+  border-top: black solid 1px;
+  margin-left: 30px;
+  margin-right: 20px;
+  width: 80%;
+  width: fit-content;
+  padding-top: 10px;
 }
 
 .smallgrid {
- border-top: black solid 1px;
- display: grid;
- grid-template-columns: 1fr;
- grid-auto-rows: 1fr;
- width: 20%;
- justify-content: start;
+  border-top: black solid 1px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
+  width: 20%;
+  justify-content: start;
 }
 
 .imgflexbox {
- display: flex;
- flex-direction: column;
- align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .biggrid img {
- height: 150px;
- width: 220px;
+  height: 150px;
+  width: 220px;
 }
 
 .imgflexbox p {
- max-width: 215px;
- font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
- color: black;
- font-size: 1rem;
- line-height: 22px;
- font-weight: 500;
+  max-width: 215px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  color: black;
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: 500;
 }
 
 .imgflexbox span,
 .smalllink {
- text-align: right;
- color: rgb(153, 153, 153);
- font-family: nyt-imperial, georgia, "times new roman", times, serif;
- font-size: 0.75rem;
- padding: 5px;
- text-decoration: none;
+  text-align: right;
+  color: rgb(153, 153, 153);
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.75rem;
+  padding: 5px;
+  text-decoration: none;
 }
 
 .timespan {
- align-self: baseline;
+  align-self: baseline;
 }
 
 .flex-list {
- display: flex;
- flex-direction: column;
- align-items: flex-start;
- padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 5px;
 }
 
 .flex-list li {
- list-style: none;
- color: black;
- font-size: 1rem;
- font-family: georgia, "times new roman", times, serif;
- line-height: 22px;
- font-weight: 500;
- border-bottom: 1px solid rgb(223, 217, 217);
- width: 100%;
- margin-top: 10px;
- padding-bottom: 10px;
+  list-style: none;
+  color: black;
+  font-size: 1rem;
+  font-family: georgia, "times new roman", times, serif;
+  line-height: 22px;
+  font-weight: 500;
+  border-bottom: 1px solid rgb(223, 217, 217);
+  width: 100%;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 .flex-list span {
- width: 100%;
- border: solid 0.5px rgb(192, 190, 190);
- margin-top: 8px;
- margin-bottom: 10px;
+  width: 100%;
+  border: solid 0.5px rgb(192, 190, 190);
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 .flex-list a {
- text-decoration: none;
- list-style: none;
- color: black;
- font-size: 1rem;
- font-family: georgia, "times new roman", times, serif;
- width: 100%;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 1rem;
+  font-family: georgia, "times new roman", times, serif;
+  width: 100%;
 }
 
 .line {
- background-color: black;
- grid-column-end: span 3;
- height: 1px;
+  background-color: black;
+  grid-column-end: span 3;
+  height: 1px;
 }
 
 .line hr {
- color: #000;
- width: 80%;
+  color: #000;
+  width: 80%;
 }
 
 .header-big {
- grid-column-end: span 3;
+  grid-column-end: span 3;
 }
 
 .footer-con {
- display: grid;
- margin: 70px 30px 40px 40px;
+  display: grid;
+  margin: 70px 30px 40px 40px;
 }
 
 .footer-con hr {
- width: 100%;
- border-top: solid 1px rgb(192, 190, 190);
- padding: 0.5px;
+  width: 100%;
+  border-top: solid 1px rgb(192, 190, 190);
+  padding: 0.5px;
 }
 
 .footer_head {
- display: inline-flex;
- justify-content: space-between;
- padding-top: 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
 .footer_body {
- display: grid;
- grid-template-columns: repeat(6, 1fr);
- padding: 10px 10px 10px 30px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 10px 10px 10px 30px;
 }
 
 .footer_body ul {
- list-style-type: none;
+  list-style-type: none;
 }
 
 .footer_body ul li {
- color: rgb(51, 51, 51);
- display: flex;
- font-family: nyt-franklin, helvetica, arial, sans-serif;
- font-size: 13px;
- font-weight: 500;
- height: 25px;
- line-height: 25px;
+  color: rgb(51, 51, 51);
+  display: flex;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  height: 25px;
+  line-height: 25px;
 }
 
 .footer_body ul li a img {
- width: 22px;
- height: 22px;
+  width: 22px;
+  height: 22px;
 }
 
 .footer_body ul li a i {
- padding-right: 10px;
+  padding-right: 10px;
 }
 
 #verticaline {
- border-left: solid 1px rgb(192, 190, 190);
- padding-left: 15px;
+  border-left: solid 1px rgb(192, 190, 190);
+  padding-left: 15px;
 }
 
 .special {
- font-weight: bolder;
- font-size: 15px;
- margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 .footer_foot {
- display: flex;
- justify-content: space-between;
- margin: 0 60px 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 60px 40px 60px;
 }
 
 .bottom-bar {
- border-top: solid 1px rgb(196, 188, 188);
- background-color: white;
- display: flex;
- position: fixed;
- bottom: 0;
- z-index: 1;
- height: 50px;
- width: 100%;
- align-items: center;
- justify-content: space-evenly;
+  border-top: solid 1px rgb(196, 188, 188);
+  background-color: white;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .bottom-bar p {
- font-family: inherit;
- color: rgb(77, 73, 73);
+  font-family: inherit;
+  color: rgb(77, 73, 73);
 }
 
 .bottom-bar i {
- padding-left: 25px;
+  padding-left: 25px;
 }
