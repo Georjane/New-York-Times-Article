@@ -1,51 +1,69 @@
-# New-York-Times-Article
+# PROJECT: POSITIONING AND FLOATING ELEMENTS
+
+This is a clone of a New York Times article page using HTML and CSS.
+
+## For the Project Design: 
+![Project Design](images/screenshot.png)
 
 The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories. That creates all kinds of interesting position questions.
-This HTML form page is designed with basic HTML, CSS, Grid, FlexBox and Positioning features. Fontawsome icons are used.
+This aticle page is designed using elements aligned with a combination of all three CSS positioning techniques (float, flex and grid).
 
-# Original Design
+It has as main sections 
 
-For the original design: [www.nytimes.com](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+- Navigation bar
+Designed using grid systems with fixed position and vertical alignment.
 
-# Project Design
+- Main Article Section
+Containing articles, list elements, an embeddedd video & images all using grid system layout.
 
-For the project design: ![Project Design](images/screenshot.png)
-# Github link:
+- Aside Section
+Designed with a grid system containing anchor elements and horizontal lines
 
-For the: [Github-link](https://github.com/Georjane/New-York-Times-Article)
+- Footer 
+Grid system layout and flex boxes are used with necessary alignments. It also includes a bottom bar whose position is fixed at the bottom too.
 
-# Main sections
 
-## Navigation row
-
-Grid system features are used with vertical alignment.
-
-## Body section
-
-Article, list elements, embed video & images are used with a grid system layout.
-
-## Footer
-
-Grid system layout and flex boxes are used with necessary alignments.
-
-# Technologies Used:
+## Built With
 
 - HTML
 - CSS
-- Grid System
-- Flex Box
 - Fontawsome icons
 
-# Authors:
+## Authors
 
-## Witah Ngu Geojane
+👤 **Witah Ngu Geojane**
 
-- Github: https://github.com/Georjane
-- LinkedIn: https://www.linkedin.com/in/witah-georjane-74b8bb184
-- Twitter: https://twitter.com/WittyJany
+- Github: [@Georjane](https://github.com/Georjane)
+- Twitter: [@WittyJany](https://twitter.com/WittyJany)
+- Linkedin: [witah](https://www.linkedin.com/in/witah-georjane-74b8bb184)
 
-## Yiğit Mersin
+👤 **Yiğit Mersin**
 
-- Github: https://github.com/yigitm
-- Linkedin: https://www.linkedin.com/in/yigitmersin
-- Twitter: https://twitter.com/ygtmrsn
+- Github: [@yigitm](https://github.com/yigitm)
+- Twitter: [@yigitmersin](https://twitter.com/ygtmrsn)
+- Linkedin: [ygtmrsn](https://www.linkedin.com/in/yigitmersin)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Georjane/New-York-Times-Article/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to The New York Times
+- The Odin Project
+- Microverse
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+
+
+
+
+
