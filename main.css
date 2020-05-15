@@ -69,6 +69,11 @@
   color: rgb(116, 114, 114);
 }
 
+.bottom-bar a {
+  text-decoration: none;
+  color: black;
+}
+
 .footer_foot a,
 .footer_body ul li a {
   text-decoration: none;
@@ -81,11 +86,6 @@
   font-weight: 500;
   height: 25px;
   line-height: 25px;
-}
-
-.bottom-bar a {
-  text-decoration: none;
-  color: black;
 }
 
 .nav-left a:hover {
