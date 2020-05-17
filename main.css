@@ -5,12 +5,12 @@
   box-sizing: border-box;
 }
 
-.main-container {
+main {
   display: grid;
 }
 
 /* Navigation Bar */
-.grid-nav {
+nav {
   display: flex;
   position: fixed;
   align-items: flex-start;
@@ -19,10 +19,6 @@
   padding: 0px 15px 5px 15px;
   z-index: 1;
   background-color: white;
-}
-
-.nav-left p {
-  float: right;
 }
 
 .nav-left,
@@ -40,7 +36,7 @@
   width: 100%;
 }
 
-.aside-con a {
+.suggestions a {
   text-decoration: none;
 }
 
@@ -126,21 +122,16 @@
   background-color: #277391;
 }
 
-.article-con {
+article {
   width: 1000px;
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 150px auto;
 }
 
-.ads {
-  height: 150px;
-  background-color: white;
-}
-
-.article-con h1 {
+article h1 {
   color: #121212;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 700;
@@ -163,7 +154,11 @@ figcaption {
   color: #666;
 }
 
-.article-con p {
+.nav-left p {
+  float: right;
+}
+
+article p {
   margin-right: 7px;
   color: #666;
   font-family: georgia, "times new roman", times, serif;
@@ -200,7 +195,7 @@ figcaption {
   width: inherit;
 }
 
-.storyhead {
+.social {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -209,7 +204,7 @@ figcaption {
   width: inherit;
 }
 
-.storyhead time {
+.social time {
   float: left;
 }
 
@@ -373,7 +368,7 @@ iframe {
   cursor: pointer;
 }
 
-.aside-con {
+.suggestions {
   display: flex;
   position: relative;
   margin-top: 15px;
@@ -390,7 +385,7 @@ iframe {
   font-weight: 500;
 }
 
-.biggrid {
+.editorial {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: 20px 1fr 1fr 10px 20px 1fr;
@@ -403,7 +398,7 @@ iframe {
   padding-top: 10px;
 }
 
-.smallgrid {
+.aside {
   border-top: black solid 1px;
   display: grid;
   grid-template-columns: 1fr;
