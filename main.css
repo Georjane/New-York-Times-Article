@@ -11,29 +11,24 @@
 
 /* Navigation Bar */
 .grid-nav {
-  display: grid;
+  display: flex;
   position: fixed;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  vertical-align: middle;
-  justify-items: center;
-  background-color: white;
+  align-items: flex-start;
+  justify-content: space-between;
   width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
+  padding: 0px 15px 5px 15px;
   z-index: 1;
+  background-color: white;
+}
+
+.nav-left p {
+  float: right;
 }
 
 .nav-left,
 .nav-mid,
 .nav-right {
-  display: flex;
   padding-top: 7px;
-}
-
-.nav-left p {
-  position: relative;
 }
 
 .flex-list a {
