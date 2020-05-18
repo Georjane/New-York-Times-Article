@@ -370,10 +370,12 @@ iframe {
 
 .suggestions {
   display: flex;
-  position: relative;
   margin-top: 15px;
   align-items: inherit;
   justify-content: center;
+  height: auto;
+  position: relative;
+  max-width: 100%;
 }
 
 .header-big a h4 {
@@ -393,8 +395,7 @@ iframe {
   border-top: black solid 1px;
   margin-left: 30px;
   margin-right: 20px;
-  width: 80%;
-  width: fit-content;
+  max-width: 90%;
   padding-top: 10px;
 }
 
@@ -403,7 +404,7 @@ iframe {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: 1fr;
-  width: 20%;
+  max-width: 20%;
   justify-content: start;
 }
 
@@ -413,7 +414,7 @@ iframe {
   align-items: flex-end;
 }
 
-.biggrid img {
+.editorial img {
   height: 150px;
   width: 220px;
 }
@@ -446,6 +447,8 @@ iframe {
   flex-direction: column;
   align-items: flex-start;
   padding-top: 5px;
+  max-width: 350px;
+  border-top: solid 1px black;
 }
 
 .flex-list li {
