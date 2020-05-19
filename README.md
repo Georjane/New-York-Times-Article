@@ -2,7 +2,9 @@
 
 This is a clone of a New York Times article page using HTML and CSS.
 
-## For the Project Design:
+## [Project Live Link](https://raw.githack.com/Georjane/New-York-Times-Article/feature_NY_Times_Article/index.html)
+
+## Project Design:
 
 ![Project Design](images/screenshot.png)
 
