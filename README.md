@@ -2,8 +2,6 @@
 
 This is a clone of a New York Times article page using HTML and CSS.
 
-## [Project Live Link](https://raw.githack.com/Georjane/New-York-Times-Article/feature_NY_Times_Article/index.html)
-
 ## Project Design:
 
 ![Project Design](images/screenshot.png)
@@ -30,6 +28,10 @@ It has as main sections
 - HTML
 - CSS
 - Fontawsome icons
+
+## Live Demo
+
+[Project Live Link](https://raw.githack.com/Georjane/New-York-Times-Article/feature_NY_Times_Article/index.html)
 
 ## Authors
 
